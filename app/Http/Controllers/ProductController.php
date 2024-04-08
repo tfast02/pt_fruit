@@ -270,7 +270,7 @@ class ProductController extends Controller {
             // END SEO
         }
         $rating = RatingModel::where('product_id', $product_id)->avg('rating');
-        $rating = round($rating);
+        // $rating = round($rating);
         $gallery = GalleryModel::where('product_id', $product_id)->orderby('gallery_id', 'desc')->get();
 
         $relate = ProductModel::with('category_product')->where('category_id', $category_id)

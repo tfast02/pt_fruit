@@ -32,7 +32,7 @@ return [
     'facebook' => [
         'client_id' => env('3097542977239385'),  //client face của bạn
         'client_secret' => env('49031da9ef5ddcbc64f2168357018767'),  //client app service face của bạn
-        'redirect' => 'http://localhost/do_an_co_so_2/admin/callback' //callback trả về
+        'redirect' => 'http://localhost/PT_fruit/admin/callback' //callback trả về
     ],
 
 

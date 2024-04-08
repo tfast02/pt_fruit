@@ -140,7 +140,11 @@
                 </tbody>
                 <tfoot>
                     <tr>
-                        <th colspan="2" style="display: table-cell; vertical-align: middle;"><a class="btn btn-secondary" target="_blank" href="{{url('/admin/in-don-hang/'.$details->order_code)}}"><i class="fas fa-print"></i>&ensp;In đơn hàng</a></th>
+                        <th colspan="2" style="display: table-cell; vertical-align: middle;">
+                            <a class="btn btn-secondary" target="_blank" href="{{url('/admin/in-don-hang/'.$details->order_code)}}">
+                                <i class="fas fa-print"></i>&ensp;In đơn hàng
+                            </a>
+                        </th>
                         <th colspan="3" style="display: table-cell; vertical-align: middle;">
                             @foreach($order as $key => $or)
                                 <form>

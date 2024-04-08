@@ -12,7 +12,7 @@
     <link rel="canonical" href="{{$url_canonical}}">
     <link rel="shortcut icon" type="image/x-icon" href="{{url('public/client/img/ico-logo.ico')}}">
 
-    <meta property="og:site_name" content="http://localhost/do_an_co_so_2/" />
+    <meta property="og:site_name" content="http://localhost/PT_fruit/" />
     <meta property="og:description" content="{{$meta_desc}}" />
     <meta property="og:title" content="{{$meta_title}}" />
     <meta property="og:url" content="{{$url_canonical}}" />
